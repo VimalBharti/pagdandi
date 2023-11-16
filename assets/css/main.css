@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@400;700&family=Caveat:wght@400;700&family=Edu+QLD+Beginner:wght@400;700&family=Kablammo&display=swap');
+
+
+.font-cairo{
+    font-family: 'Cairo Play';
+}
+.font-caveat{
+    font-family: 'Caveat';
+}
+.font-edu{
+    font-family: 'Edu QLD Beginner';
+}
+.font-kablammo{
+    font-family: 'Kablammo';
+}
