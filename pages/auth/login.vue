@@ -39,7 +39,7 @@
             });
             loading.value = false;
             if(error) throw error;
-            router.push({ path: "/dashboard" });
+            router.push({ path: "/admin/dashboard" });
         } catch (error) {
             errorMsg.value = error.message
         }
