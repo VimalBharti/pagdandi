@@ -5,16 +5,20 @@
 
     <section class="details py-6 md:py-12">
       <div class="max-w-3xl mx-auto space-y-3 border-b pb-6">
-        <h1 class="text-[3em] font-bold">{{ blog.title }}</h1>
+        <h1 class="text-[3em] font-bold" v-if="blog.hind_title">{{ blog.hind_title }}</h1>
+        <h1 class="text-[3em] font-bold" v-else>{{ blog.title }}</h1>
         <p class="text-xl leading-loose">{{ blog.meta_seo }}</p>
         <button class="bg-yellow-400/25 border border-yellow-600 px-5 text-yellow-700 text-sm py-2 rounded-full">{{ blog.categories.title }}</button>
       </div>
       <div class="flex items-center justify-between max-w-3xl mx-auto pt-6">
-        <div>{{ $dayjs(blog.created_at).format('MMMM D, YYYY') }} . 4 min read</div>
+        <div>
+          {{ $dayjs(blog.created_at).format('MMMM D, YYYY') }} 
+          <!-- . 4 min read -->
+        </div>
         <div class="flex items-center gap-4">
           <a :href="fbUrl" target="_blank"><Icon name="ri:facebook-fill" /></a>
-          <a><Icon name="mdi:twitter" /></a>
-          <a><Icon name="ri:linkedin-fill" /></a>
+          <a :href="twitterUrl" target="_blank"><Icon name="mdi:twitter" /></a>
+          <a :href="linkedinUrl" target="_blank"><Icon name="ri:linkedin-fill" /></a>
         </div>
       </div>
 
