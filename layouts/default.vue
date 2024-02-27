@@ -2,8 +2,8 @@
   <div>
     <slot />
     <!-- Floating nav -->
-    <FloatBottomNav />
-    <!-- <MainFooter /> -->
+    <!-- <FloatBottomNav /> -->
+    <MainFooter />
   </div>
 </template>
 
