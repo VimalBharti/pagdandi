@@ -135,17 +135,6 @@
   let { data: categories, error } = await supabase
     .from('categories')
     .select('*')
-
-  let { data: blogs } = await supabase
-    .from('blogs')
-    .select(`
-      *,
-      categories(
-        id, title
-      )
-    `)
-    .range(0, 3)
-    .order('created_at')
             
 </script>
 
