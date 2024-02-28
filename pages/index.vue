@@ -4,7 +4,7 @@
     <div class="header h-screen relative">
       <nav class="w-full fixed top-0 left-0 z-10 p-3">
         <div class="max-w-xl w-full mx-auto bg-white/50 shadow-inner border backdrop-blur rounded-full p-2 flex justify-between items-center">
-          <NuxtLink to="/" class="bg-white/75 rounded-full border border-white">
+          <NuxtLink to="/" class="bg-white/75 rounded-full border border-white hidden md:block">
             <img src="/images/logo.png" alt="rufa-logo" class="w-12 rounded-full">
           </NuxtLink>
           <div class="flex items-center gap-3 text-sm">
