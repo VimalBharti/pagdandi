@@ -8,19 +8,19 @@
             <img src="/images/logo.png" alt="rufa-logo" class="w-12 rounded-full">
           </NuxtLink>
           <div class="flex items-center gap-3 text-sm">
-            <NuxtLink to="/" class="flex items-center gap-1 bg-gray-100/50 rounded-full px-3 py-2 text-zinc-800">
+            <NuxtLink to="/" class="flex flex-col md:flex-row justify-center items-center gap-1 bg-gray-100/50 rounded-full px-3 py-2 text-zinc-800">
               <Icon name="ic:outline-article" class="h-4 w-4" />
               <span>Articles</span>
             </NuxtLink>
-            <NuxtLink to="/" class="flex items-center gap-1 bg-gray-100/50 rounded-full px-3 py-2 text-zinc-800">
+            <NuxtLink to="/" class="flex flex-col md:flex-row justify-center items-center gap-1 bg-gray-100/50 rounded-full px-3 py-2 text-zinc-800">
               <Icon name="material-symbols:slow-motion-video-rounded" class="h-4 w-4" />
               <span>Videos</span>
             </NuxtLink>
-            <NuxtLink to="/" class="flex items-center gap-1 bg-gray-100/50 rounded-full px-3 py-2 text-zinc-800">
+            <NuxtLink to="/" class="flex flex-col md:flex-row justify-center items-center gap-1 bg-gray-100/50 rounded-full px-3 py-2 text-zinc-800">
               <Icon name="ic:outline-mail" class="h-4 w-4" />
               <span>Contact</span>
             </NuxtLink>
-            <NuxtLink to="/" class="flex items-center gap-1 bg-gray-100/50 rounded-full px-3 py-2 text-zinc-800">
+            <NuxtLink to="/" class="flex flex-col md:flex-row justify-center items-center gap-1 bg-gray-100/50 rounded-full px-3 py-2 text-zinc-800">
               <Icon name="solar:podcast-bold" class="h-5 w-5" />
               <span>Podcast</span>
             </NuxtLink>
